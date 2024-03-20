@@ -70,7 +70,7 @@ namespace ProductApps
         public void calTotalPayment()
         {
             TotalPayment = Price * Quantity;
-            TotalCharge = TotalPayment + 25;
+            TotalCharge = TotalPayment + 25 + 5;
         }
     }
 }
